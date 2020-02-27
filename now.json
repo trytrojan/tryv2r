@@ -2,6 +2,6 @@
   "name": "tryv2r",
   "version": 2,
   "routes": [
-    {"src": "/v2r/(.*)","dest": "https://trytrojansvr.herokuapp.com/$1"}
+    {"src": "/(.*)","dest": "https://trytrojansvr.herokuapp.com/$1"}
   ]
 } 
